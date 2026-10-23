@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="application-name" content="Eye of the World Law">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101326">
+  <meta name="description" content="理科解析：萬物的法則之眼 物理單元：電流與電壓。包含核心概念、公式、例題、常見錯誤與進階挑戰。">
+  <title>Unit 36｜電流與電壓｜理科解析：萬物的法則之眼</title>
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body class="dark unit-body">
+  <main class="unit-shell">
+    <header class="unit-topbar"><a class="unit-brand" href="../../index.html"><span>∑</span><span><strong>理科解析：萬物的法則之眼</strong><small>EYE OF THE WORLD LAW</small></span></a><a class="unit-back" href="../../pages/learning/curriculum.html">← 返回完整章節地圖</a></header>
+    <section class="unit-hero" style="--unit-accent:#38c9c0">
+      <div class="unit-tags"><span>物理</span><span>國中基礎</span><span>UNIT 36 / 44</span></div>
+      <div class="unit-hero-row"><div><p class="unit-eyebrow">CHAPTER GUIDE · 物理</p><h1>電流與電壓</h1><p class="unit-lead">從核心觀念出發，搭配公式、例題與錯誤檢查，逐步建立完整解題流程。</p></div><div class="unit-number">36</div></div>
+      <div class="unit-progress"><span id="unitDoneBar"></span></div><p class="unit-progress-label" id="unitStatus">尚未標記完成</p>
+    </section>
+    <section class="unit-learning-grid"><section class="unit-section"><span class="unit-step">01 / STUDY NOTE</span><h2>核心概念</h2><p>電流是電荷流動率，電壓代表每單位電荷的能量差。</p></section>
+<section class="unit-section"><span class="unit-step">02 / STUDY NOTE</span><h2>公式整理</h2><p>歐姆定律 V=IR；電功率 P=VI。</p></section>
+<section class="unit-section"><span class="unit-step">03 / STUDY NOTE</span><h2>例題演練</h2><p>6 Ω 電阻接 12 V，電流 I=2 A。</p><div class="unit-tip"><strong>解題思路</strong><p>先化簡電路，再套用歐姆定律並標單位。</p></div></section>
+<section class="unit-section"><span class="unit-step">04 / STUDY NOTE</span><h2>常見錯誤</h2><p>串聯電流相同、並聯電壓相同。</p></section>
+<section class="unit-section"><span class="unit-step">05 / STUDY NOTE</span><h2>進階挑戰</h2><p>分析串並聯混合電路的總電阻與功率。</p><details class="unit-hint"><summary>查看提示</summary><p>先化簡電路，再套用歐姆定律並標單位。 請先列出已知條件與所求量，再檢查單位與限制條件。</p></details></section></section>
+    <section class="unit-practice-panel"><div><span class="unit-step">APPLY WHAT YOU LEARNED</span><h2>把觀念用出來</h2><p>完成本單元後，可以開啟相關工具進行計算，或前往練習區測試理解程度。</p></div><div class="unit-actions"><button class="btn btn-primary" id="markUnit">✓ 標記本章完成</button><a class="btn btn-secondary" href="../../pages/tools/electric.html">開啟相關工具 ↗</a><a class="btn btn-ghost" href="../../pages/learning/practice.html">前往練習區 ↗</a></div></section>
+    <nav class="unit-pager" aria-label="章節切換"><a href="unit05.html">← 上一單元</a><span>物理 · 06</span><a href="unit07.html">下一單元 →</a></nav>
+    <footer class="unit-footer">理科解析：萬物的法則之眼 · 國高中數理學習工具箱</footer>
+  </main>
+  <script>
+    (() => {
+      const lessonId = "physics-middle-5-電流與電壓";
+      const key = 'mathboxUltraLessons';
+      const button = document.getElementById('markUnit');
+      const bar = document.getElementById('unitDoneBar');
+      const status = document.getElementById('unitStatus');
+      function readDone() { try { return JSON.parse(localStorage.getItem(key) || '[]'); } catch { return []; } }
+      function paint() { const done = readDone().includes(lessonId); button.textContent = done ? '✓ 已完成本章' : '✓ 標記本章完成'; button.classList.toggle('unit-completed', done); bar.style.width = done ? '100%' : '0%'; status.textContent = done ? '已完成 · 學習進度已儲存於此瀏覽器' : '尚未標記完成'; }
+      button.addEventListener('click', () => { const done = new Set(readDone()); done.add(lessonId); try { localStorage.setItem(key, JSON.stringify([...done])); paint(); } catch { status.textContent = '瀏覽器限制儲存，請確認允許網站使用本機儲存空間。'; } });
+      paint();
+    })();
+  </script>
+</body>
+</html>

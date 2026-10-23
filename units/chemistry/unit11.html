@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="application-name" content="Eye of the World Law">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101326">
+  <meta name="description" content="理科解析：萬物的法則之眼 化學單元：氣體定律。包含核心概念、公式、例題、常見錯誤與進階挑戰。">
+  <title>Unit 27｜氣體定律｜理科解析：萬物的法則之眼</title>
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body class="dark unit-body">
+  <main class="unit-shell">
+    <header class="unit-topbar"><a class="unit-brand" href="../../index.html"><span>∑</span><span><strong>理科解析：萬物的法則之眼</strong><small>EYE OF THE WORLD LAW</small></span></a><a class="unit-back" href="../../pages/learning/curriculum.html">← 返回完整章節地圖</a></header>
+    <section class="unit-hero" style="--unit-accent:#f5a35e">
+      <div class="unit-tags"><span>化學</span><span>高中進階</span><span>UNIT 27 / 44</span></div>
+      <div class="unit-hero-row"><div><p class="unit-eyebrow">CHAPTER GUIDE · 化學</p><h1>氣體定律</h1><p class="unit-lead">從核心觀念出發，搭配公式、例題與錯誤檢查，逐步建立完整解題流程。</p></div><div class="unit-number">27</div></div>
+      <div class="unit-progress"><span id="unitDoneBar"></span></div><p class="unit-progress-label" id="unitStatus">尚未標記完成</p>
+    </section>
+    <section class="unit-learning-grid"><section class="unit-section"><span class="unit-step">01 / STUDY NOTE</span><h2>核心概念</h2><p>氣體壓力、體積、溫度與莫耳數彼此關聯。</p></section>
+<section class="unit-section"><span class="unit-step">02 / STUDY NOTE</span><h2>公式整理</h2><p>理想氣體方程式 PV=nRT，溫度需用 K。</p></section>
+<section class="unit-section"><span class="unit-step">03 / STUDY NOTE</span><h2>例題演練</h2><p>攝氏 27°C 約為 300 K。</p><div class="unit-tip"><strong>解題思路</strong><p>先轉成絕對溫度，再確認哪些變數固定。</p></div></section>
+<section class="unit-section"><span class="unit-step">04 / STUDY NOTE</span><h2>常見錯誤</h2><p>不可直接把攝氏溫度代入氣體方程式。</p></section>
+<section class="unit-section"><span class="unit-step">05 / STUDY NOTE</span><h2>進階挑戰</h2><p>固定莫耳數下分析壓力與體積變化。</p><details class="unit-hint"><summary>查看提示</summary><p>先轉成絕對溫度，再確認哪些變數固定。 請先列出已知條件與所求量，再檢查單位與限制條件。</p></details></section></section>
+    <section class="unit-practice-panel"><div><span class="unit-step">APPLY WHAT YOU LEARNED</span><h2>把觀念用出來</h2><p>完成本單元後，可以開啟相關工具進行計算，或前往練習區測試理解程度。</p></div><div class="unit-actions"><button class="btn btn-primary" id="markUnit">✓ 標記本章完成</button><a class="btn btn-secondary" href="../../pages/tools/chemistry.html">開啟相關工具 ↗</a><a class="btn btn-ghost" href="../../pages/learning/practice.html">前往練習區 ↗</a></div></section>
+    <nav class="unit-pager" aria-label="章節切換"><a href="unit10.html">← 上一單元</a><span>化學 · 11</span><a href="unit12.html">下一單元 →</a></nav>
+    <footer class="unit-footer">理科解析：萬物的法則之眼 · 國高中數理學習工具箱</footer>
+  </main>
+  <script>
+    (() => {
+      const lessonId = "chemistry-high-4-氣體定律";
+      const key = 'mathboxUltraLessons';
+      const button = document.getElementById('markUnit');
+      const bar = document.getElementById('unitDoneBar');
+      const status = document.getElementById('unitStatus');
+      function readDone() { try { return JSON.parse(localStorage.getItem(key) || '[]'); } catch { return []; } }
+      function paint() { const done = readDone().includes(lessonId); button.textContent = done ? '✓ 已完成本章' : '✓ 標記本章完成'; button.classList.toggle('unit-completed', done); bar.style.width = done ? '100%' : '0%'; status.textContent = done ? '已完成 · 學習進度已儲存於此瀏覽器' : '尚未標記完成'; }
+      button.addEventListener('click', () => { const done = new Set(readDone()); done.add(lessonId); try { localStorage.setItem(key, JSON.stringify([...done])); paint(); } catch { status.textContent = '瀏覽器限制儲存，請確認允許網站使用本機儲存空間。'; } });
+      paint();
+    })();
+  </script>
+</body>
+</html>
